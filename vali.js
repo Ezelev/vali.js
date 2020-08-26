@@ -30,6 +30,7 @@ form.addEventListener("submit", (e) => {
         e.preventDefault();
         errorsHolder.innerHTML = messages.join("<br>");
     }
+    
 
     e.preventDefault();
 });
